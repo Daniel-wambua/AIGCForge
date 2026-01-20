@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="media/aigcforge_logo.svg" alt="AIGCForge Logo" width="180"/>
+  <img src="./media/aigcforge_logo.svg" alt="AIGCForge Logo" width="180"/>
 </p>
 
 # AIGCForge
@@ -10,7 +10,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Platform: Linux](https://img.shields.io/badge/platform-Linux-green.svg)](https://www.debian.org/)
 
-AIGCForge is an open-source OSINT metadata analysis tool for digital forensics, inspired by Metaforge, with an additional AI provenance analysis layer.
+AIGCForge is an open-source OSINT metadata analysis tool for digital forensics.
 
 ---
 
