@@ -1,0 +1,2 @@
+# Only required non-stdlib dependency for core functionality
+Pillow>=9.0.0

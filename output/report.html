@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIGCForge Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f4f6fa;
+            color: #222;
+        }
+        header {
+            background: #1a2233;
+            color: #fff;
+            padding: 2rem 2rem 1rem 2rem;
+            border-bottom: 4px solid #4e8cff;
+        }
+        h1 {
+            margin: 0 0 0.5em 0;
+            font-size: 2.2em;
+            letter-spacing: 1px;
+        }
+        .version {
+            font-size: 1em;
+            color: #b0c4de;
+        }
+        .lim {
+            color: #b00;
+            font-size: 1em;
+            margin: 1em 0 0 0;
+        }
+        main {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .file-block {
+            background: #fff;
+            border: 1px solid #e0e6ef;
+            margin-bottom: 2em;
+            padding: 1.5em 1.5em 1em 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(30,40,90,0.06);
+            transition: box-shadow 0.2s;
+        }
+        .file-block:hover {
+            box-shadow: 0 4px 16px rgba(30,40,90,0.13);
+        }
+        h2 {
+            font-size: 1.2em;
+            margin: 0 0 0.5em 0;
+            color: #1a2233;
+        }
+        .meta, .findings {
+            margin: 1em 0;
+        }
+        .meta pre, .findings pre {
+            background: #f7f9fb;
+            padding: 0.7em;
+            border-radius: 6px;
+            font-size: 0.98em;
+            overflow-x: auto;
+            border: 1px solid #e0e6ef;
+        }
+        .meta strong, .findings strong {
+            color: #4e8cff;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 1em;
+            margin: 3em 0 1em 0;
+        }
+        @media (max-width: 600px) {
+            main { padding: 0 0.2em; }
+            .file-block { padding: 1em 0.5em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AIGCForge Report</h1>
+        <div class="version"><strong>Version:</strong> 1.0</div>
+        <div class="lim"><strong>Limitations:</strong> AI provenance is based on explicit metadata evidence only. No probabilistic or ML-based detection is performed. Only supported vendors with known metadata are flagged.</div>
+    </header>
+    <main>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/OSINT CTF Challenge Solution: rain_06_ai.md</h2>
+        <div class="meta">
+            <strong>Hash:</strong> cc0dbb555217776a3deff75ae55a37c49dd0f1375cd99d90958a550d75724593<br>
+            <strong>Type:</strong> text/markdown
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "ByteOrderMark": "No",
+    "FileType": "TXT",
+    "FileTypeExtension": "txt",
+    "LineCount": 92,
+    "MIMEEncoding": "utf-8",
+    "MIMEType": "text/plain",
+    "Newlines": "Unix LF",
+    "WordCount": 314
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/OSINT CTF Challenge Solution: rain_06_ai.md",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 11:22:01+03:00",
+    "FileInodeChangeDate": "2026:01:17 11:22:01+03:00",
+    "FileModifyDate": "2026:01:17 08:08:46+03:00",
+    "FileName": "OSINT CTF Challenge Solution: rain_06_ai.md",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "2.7 kB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[
+  {
+    "marker": "aigc/AIGC found in bytes",
+    "type": "raw_marker"
+  },
+  {
+    "json": {
+      "aigc_info": {
+        "aigc_label_type": 0,
+        "source_info": "dreamina"
+      },
+      "data": {
+        "exportType": "generation",
+        "os": "web",
+        "pictureId": "0",
+        "product": "dreamina"
+      },
+      "trace_info": {
+        "originItemId": "7590949739743448328"
+      }
+    },
+    "type": "raw_embedded_json"
+  }
+]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo.jpg</h2>
+        <div class="meta">
+            <strong>Hash:</strong> aff19b003131f7d0bd49b703d369f88af05921410077a6a39d126a49af18941d<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Composite": {
+    "ImageSize": "5404x3040",
+    "Megapixels": 16.4
+  },
+  "ExifIFD": {
+    "UserComment": "{\"aigc_info\":{\"aigc_label_type\":0,\"source_info\":\"dreamina\"},\"data\":{\"os\":\"web\",\"product\":\"dreamina\",\"exportType\":\"generation\",\"pictureId\":\"0\"},\"trace_info\":{\"originItemId\":\"7590949739743448328\"}}"
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Baseline DCT, Huffman coding",
+    "ExifByteOrder": "Big-endian (Motorola, MM)",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 3040,
+    "ImageWidth": 5404,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+  },
+  "JFIF": {
+    "JFIFVersion": 1.01,
+    "ResolutionUnit": "None",
+    "XResolution": 1,
+    "YResolution": 1
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo.jpg",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 11:22:01+03:00",
+    "FileInodeChangeDate": "2026:01:17 11:22:01+03:00",
+    "FileModifyDate": "2026:01:17 08:08:46+03:00",
+    "FileName": "tokyo.jpg",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "2.8 MB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[
+  {
+    "confidence": "high",
+    "evidence": [
+      "aigc_info block found"
+    ],
+    "type": "ai_metadata",
+    "vendor": "dreamina"
+  },
+  {
+    "confidence": "high",
+    "evidence": [
+      "aigc_info block found"
+    ],
+    "type": "ai_metadata",
+    "vendor": "bytedance"
+  },
+  {
+    "marker": "aigc/AIGC found in bytes",
+    "type": "raw_marker"
+  },
+  {
+    "json": {
+      "aigc_info": {
+        "aigc_label_type": 0,
+        "source_info": "dreamina"
+      },
+      "data": {
+        "exportType": "generation",
+        "os": "web",
+        "pictureId": "0",
+        "product": "dreamina"
+      },
+      "trace_info": {
+        "originItemId": "7590949739743448328"
+      }
+    },
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  }
+]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo_0003.jpeg</h2>
+        <div class="meta">
+            <strong>Hash:</strong> aff19b003131f7d0bd49b703d369f88af05921410077a6a39d126a49af18941d<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Composite": {
+    "ImageSize": "5404x3040",
+    "Megapixels": 16.4
+  },
+  "ExifIFD": {
+    "UserComment": "{\"aigc_info\":{\"aigc_label_type\":0,\"source_info\":\"dreamina\"},\"data\":{\"os\":\"web\",\"product\":\"dreamina\",\"exportType\":\"generation\",\"pictureId\":\"0\"},\"trace_info\":{\"originItemId\":\"7590949739743448328\"}}"
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Baseline DCT, Huffman coding",
+    "ExifByteOrder": "Big-endian (Motorola, MM)",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 3040,
+    "ImageWidth": 5404,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+  },
+  "JFIF": {
+    "JFIFVersion": 1.01,
+    "ResolutionUnit": "None",
+    "XResolution": 1,
+    "YResolution": 1
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo_0003.jpeg",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 11:35:48+03:00",
+    "FileInodeChangeDate": "2026:01:20 12:17:27+03:00",
+    "FileModifyDate": "2026:01:03 13:13:58+03:00",
+    "FileName": "tokyo_0003.jpeg",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "2.8 MB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[
+  {
+    "confidence": "high",
+    "evidence": [
+      "aigc_info block found"
+    ],
+    "type": "ai_metadata",
+    "vendor": "dreamina"
+  },
+  {
+    "confidence": "high",
+    "evidence": [
+      "aigc_info block found"
+    ],
+    "type": "ai_metadata",
+    "vendor": "bytedance"
+  },
+  {
+    "marker": "aigc/AIGC found in bytes",
+    "type": "raw_marker"
+  },
+  {
+    "json": {
+      "aigc_info": {
+        "aigc_label_type": 0,
+        "source_info": "dreamina"
+      },
+      "data": {
+        "exportType": "generation",
+        "os": "web",
+        "pictureId": "0",
+        "product": "dreamina"
+      },
+      "trace_info": {
+        "originItemId": "7590949739743448328"
+      }
+    },
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  }
+]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/blog.jpg</h2>
+        <div class="meta">
+            <strong>Hash:</strong> 10cdff1dc5ae39d807175d196f8e6fe8dd1a4ecaf7afc8caaa66cff650a1b90f<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Composite": {
+    "ImageSize": "980x392",
+    "Megapixels": 0.384
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Baseline DCT, Huffman coding",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 392,
+    "ImageWidth": 980,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+  },
+  "JFIF": {
+    "JFIFVersion": 1.01,
+    "ResolutionUnit": "None",
+    "XResolution": 1,
+    "YResolution": 1
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/blog.jpg",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 10:24:13+03:00",
+    "FileInodeChangeDate": "2026:01:20 12:17:30+03:00",
+    "FileModifyDate": "2026:01:17 10:24:13+03:00",
+    "FileName": "blog.jpg",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "46 kB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  }
+]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/rain_01_social.jpg</h2>
+        <div class="meta">
+            <strong>Hash:</strong> 45e067072559ea534a88e86929c19d0db99ad715bebb0d0f01cea7dacf84a1a0<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Adobe": {
+    "APP14Flags0": "Encoded with Blend=1 downsampling",
+    "APP14Flags1": "(none)",
+    "ColorTransform": "YCbCr",
+    "DCTEncodeVersion": 100
+  },
+  "Composite": {
+    "ImageSize": "2043x1362",
+    "Megapixels": 2.8
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Progressive DCT, Huffman coding",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 1362,
+    "ImageWidth": 2043,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/rain_01_social.jpg",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 09:54:06+03:00",
+    "FileInodeChangeDate": "2026:01:20 12:17:34+03:00",
+    "FileModifyDate": "2026:01:17 09:54:20+03:00",
+    "FileName": "rain_01_social.jpg",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "303 kB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  },
+  {
+    "json": {},
+    "type": "raw_embedded_json"
+  }
+]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/pilot.jpg</h2>
+        <div class="meta">
+            <strong>Hash:</strong> 038b0a04b9b9a8e257e38441de1e1d61537baed115a1e1f74b64fc283210bf4c<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Adobe": {
+    "APP14Flags0": "[14]",
+    "APP14Flags1": "(none)",
+    "ColorTransform": "YCbCr",
+    "DCTEncodeVersion": 100
+  },
+  "Composite": {
+    "ImageSize": "1024x682",
+    "Megapixels": 0.698
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Progressive DCT, Huffman coding",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 682,
+    "ImageWidth": 1024,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:4:4 (1 1)"
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/pilot.jpg",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:17 12:09:17+03:00",
+    "FileInodeChangeDate": "2026:01:20 12:17:39+03:00",
+    "FileModifyDate": "2026:01:17 12:09:18+03:00",
+    "FileName": "pilot.jpg",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "271 kB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[]</pre>
+        </div>
+    </div>
+    
+    <div class="file-block">
+        <h2>File: /home/havoc/Downloads/ctf/swimmerctf/ai-images/bWF4</h2>
+        <div class="meta">
+            <strong>Hash:</strong> 96cf36068bd0f4cd8bf75ba457ae3a2e59dd5ade9c109941fde070b7d60c3744<br>
+            <strong>Type:</strong> image/jpeg
+        </div>
+        <div class="meta">
+            <strong>Extracted Metadata:</strong>
+            <pre>{
+  "Composite": {
+    "ImageSize": "500x452",
+    "Megapixels": 0.226
+  },
+  "ExifIFD": {
+    "ColorSpace": "Uncalibrated",
+    "ComponentsConfiguration": "Y, Cb, Cr, -",
+    "ExifImageHeight": 452,
+    "ExifImageWidth": 500,
+    "ExifVersion": "0210",
+    "FlashpixVersion": "0100"
+  },
+  "ExifTool": {
+    "ExifToolVersion": 13.25
+  },
+  "File": {
+    "BitsPerSample": 8,
+    "ColorComponents": 3,
+    "EncodingProcess": "Baseline DCT, Huffman coding",
+    "ExifByteOrder": "Little-endian (Intel, II)",
+    "FileType": "JPEG",
+    "FileTypeExtension": "jpg",
+    "ImageHeight": 452,
+    "ImageWidth": 500,
+    "MIMEType": "image/jpeg",
+    "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+  },
+  "IFD0": {
+    "Orientation": "Horizontal (normal)",
+    "ResolutionUnit": "inches",
+    "XResolution": 72,
+    "YCbCrPositioning": "Centered",
+    "YResolution": 72
+  },
+  "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/bWF4",
+  "System": {
+    "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+    "FileAccessDate": "2026:01:20 12:18:45+03:00",
+    "FileInodeChangeDate": "2026:01:20 12:19:15+03:00",
+    "FileModifyDate": "2026:01:20 12:18:46+03:00",
+    "FileName": "bWF4",
+    "FilePermissions": "-rw-rw-r--",
+    "FileSize": "36 kB"
+  }
+}</pre>
+        </div>
+        <div class="findings">
+            <strong>Analysis Findings:</strong>
+            <pre>[]</pre>
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <p>Generated by AIGCForge. MIT License.</p>
+    </footer>
+</body>
+</html>

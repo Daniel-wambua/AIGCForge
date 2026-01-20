@@ -1,0 +1,7 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#1a2233"/>
+  <text x="50%" y="40%" text-anchor="middle" fill="#4e8cff" font-size="48" font-family="Segoe UI, Arial, sans-serif" font-weight="bold">AIGC</text>
+  <text x="50%" y="70%" text-anchor="middle" fill="#b0c4de" font-size="28" font-family="Segoe UI, Arial, sans-serif">Forge</text>
+  <rect x="40" y="180" width="176" height="18" rx="9" fill="#4e8cff" opacity="0.2"/>
+  <text x="50%" y="90%" text-anchor="middle" fill="#888" font-size="16" font-family="Segoe UI, Arial, sans-serif">OSINT Metadata & AI</text>
+</svg>

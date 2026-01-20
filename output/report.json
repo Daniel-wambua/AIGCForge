@@ -1,0 +1,471 @@
+{
+  "tool": "AIGCForge",
+  "version": "1.0",
+  "limitations": [
+    "AI provenance is based on explicit metadata evidence only.",
+    "No probabilistic or ML-based detection is performed.",
+    "Only supported vendors with known metadata are flagged."
+  ],
+  "results": [
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/OSINT CTF Challenge Solution: rain_06_ai.md",
+      "hash": "cc0dbb555217776a3deff75ae55a37c49dd0f1375cd99d90958a550d75724593",
+      "type": "text/markdown",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/OSINT CTF Challenge Solution: rain_06_ai.md",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "OSINT CTF Challenge Solution: rain_06_ai.md",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "2.7 kB",
+          "FileModifyDate": "2026:01:17 08:08:46+03:00",
+          "FileAccessDate": "2026:01:17 11:22:01+03:00",
+          "FileInodeChangeDate": "2026:01:17 11:22:01+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "TXT",
+          "FileTypeExtension": "txt",
+          "MIMEType": "text/plain",
+          "MIMEEncoding": "utf-8",
+          "ByteOrderMark": "No",
+          "Newlines": "Unix LF",
+          "LineCount": 92,
+          "WordCount": 314
+        }
+      },
+      "findings": [
+        {
+          "type": "raw_marker",
+          "marker": "aigc/AIGC found in bytes"
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {
+            "aigc_info": {
+              "aigc_label_type": 0,
+              "source_info": "dreamina"
+            },
+            "data": {
+              "os": "web",
+              "product": "dreamina",
+              "exportType": "generation",
+              "pictureId": "0"
+            },
+            "trace_info": {
+              "originItemId": "7590949739743448328"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo.jpg",
+      "hash": "aff19b003131f7d0bd49b703d369f88af05921410077a6a39d126a49af18941d",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo.jpg",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "tokyo.jpg",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "2.8 MB",
+          "FileModifyDate": "2026:01:17 08:08:46+03:00",
+          "FileAccessDate": "2026:01:17 11:22:01+03:00",
+          "FileInodeChangeDate": "2026:01:17 11:22:01+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ExifByteOrder": "Big-endian (Motorola, MM)",
+          "ImageWidth": 5404,
+          "ImageHeight": 3040,
+          "EncodingProcess": "Baseline DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+        },
+        "JFIF": {
+          "JFIFVersion": 1.01,
+          "ResolutionUnit": "None",
+          "XResolution": 1,
+          "YResolution": 1
+        },
+        "ExifIFD": {
+          "UserComment": "{\"aigc_info\":{\"aigc_label_type\":0,\"source_info\":\"dreamina\"},\"data\":{\"os\":\"web\",\"product\":\"dreamina\",\"exportType\":\"generation\",\"pictureId\":\"0\"},\"trace_info\":{\"originItemId\":\"7590949739743448328\"}}"
+        },
+        "Composite": {
+          "ImageSize": "5404x3040",
+          "Megapixels": 16.4
+        }
+      },
+      "findings": [
+        {
+          "type": "ai_metadata",
+          "confidence": "high",
+          "vendor": "dreamina",
+          "evidence": [
+            "aigc_info block found"
+          ]
+        },
+        {
+          "type": "ai_metadata",
+          "confidence": "high",
+          "vendor": "bytedance",
+          "evidence": [
+            "aigc_info block found"
+          ]
+        },
+        {
+          "type": "raw_marker",
+          "marker": "aigc/AIGC found in bytes"
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {
+            "aigc_info": {
+              "aigc_label_type": 0,
+              "source_info": "dreamina"
+            },
+            "data": {
+              "os": "web",
+              "product": "dreamina",
+              "exportType": "generation",
+              "pictureId": "0"
+            },
+            "trace_info": {
+              "originItemId": "7590949739743448328"
+            }
+          }
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        }
+      ]
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo_0003.jpeg",
+      "hash": "aff19b003131f7d0bd49b703d369f88af05921410077a6a39d126a49af18941d",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/tokyo_0003.jpeg",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "tokyo_0003.jpeg",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "2.8 MB",
+          "FileModifyDate": "2026:01:03 13:13:58+03:00",
+          "FileAccessDate": "2026:01:17 11:35:48+03:00",
+          "FileInodeChangeDate": "2026:01:20 12:17:27+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ExifByteOrder": "Big-endian (Motorola, MM)",
+          "ImageWidth": 5404,
+          "ImageHeight": 3040,
+          "EncodingProcess": "Baseline DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+        },
+        "JFIF": {
+          "JFIFVersion": 1.01,
+          "ResolutionUnit": "None",
+          "XResolution": 1,
+          "YResolution": 1
+        },
+        "ExifIFD": {
+          "UserComment": "{\"aigc_info\":{\"aigc_label_type\":0,\"source_info\":\"dreamina\"},\"data\":{\"os\":\"web\",\"product\":\"dreamina\",\"exportType\":\"generation\",\"pictureId\":\"0\"},\"trace_info\":{\"originItemId\":\"7590949739743448328\"}}"
+        },
+        "Composite": {
+          "ImageSize": "5404x3040",
+          "Megapixels": 16.4
+        }
+      },
+      "findings": [
+        {
+          "type": "ai_metadata",
+          "confidence": "high",
+          "vendor": "dreamina",
+          "evidence": [
+            "aigc_info block found"
+          ]
+        },
+        {
+          "type": "ai_metadata",
+          "confidence": "high",
+          "vendor": "bytedance",
+          "evidence": [
+            "aigc_info block found"
+          ]
+        },
+        {
+          "type": "raw_marker",
+          "marker": "aigc/AIGC found in bytes"
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {
+            "aigc_info": {
+              "aigc_label_type": 0,
+              "source_info": "dreamina"
+            },
+            "data": {
+              "os": "web",
+              "product": "dreamina",
+              "exportType": "generation",
+              "pictureId": "0"
+            },
+            "trace_info": {
+              "originItemId": "7590949739743448328"
+            }
+          }
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        }
+      ]
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/blog.jpg",
+      "hash": "10cdff1dc5ae39d807175d196f8e6fe8dd1a4ecaf7afc8caaa66cff650a1b90f",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/blog.jpg",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "blog.jpg",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "46 kB",
+          "FileModifyDate": "2026:01:17 10:24:13+03:00",
+          "FileAccessDate": "2026:01:17 10:24:13+03:00",
+          "FileInodeChangeDate": "2026:01:20 12:17:30+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ImageWidth": 980,
+          "ImageHeight": 392,
+          "EncodingProcess": "Baseline DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+        },
+        "JFIF": {
+          "JFIFVersion": 1.01,
+          "ResolutionUnit": "None",
+          "XResolution": 1,
+          "YResolution": 1
+        },
+        "Composite": {
+          "ImageSize": "980x392",
+          "Megapixels": 0.384
+        }
+      },
+      "findings": [
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        }
+      ]
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/rain_01_social.jpg",
+      "hash": "45e067072559ea534a88e86929c19d0db99ad715bebb0d0f01cea7dacf84a1a0",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/rain_01_social.jpg",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "rain_01_social.jpg",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "303 kB",
+          "FileModifyDate": "2026:01:17 09:54:20+03:00",
+          "FileAccessDate": "2026:01:17 09:54:06+03:00",
+          "FileInodeChangeDate": "2026:01:20 12:17:34+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ImageWidth": 2043,
+          "ImageHeight": 1362,
+          "EncodingProcess": "Progressive DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+        },
+        "Adobe": {
+          "DCTEncodeVersion": 100,
+          "APP14Flags0": "Encoded with Blend=1 downsampling",
+          "APP14Flags1": "(none)",
+          "ColorTransform": "YCbCr"
+        },
+        "Composite": {
+          "ImageSize": "2043x1362",
+          "Megapixels": 2.8
+        }
+      },
+      "findings": [
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        },
+        {
+          "type": "raw_embedded_json",
+          "json": {}
+        }
+      ]
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/pilot.jpg",
+      "hash": "038b0a04b9b9a8e257e38441de1e1d61537baed115a1e1f74b64fc283210bf4c",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/pilot.jpg",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "pilot.jpg",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "271 kB",
+          "FileModifyDate": "2026:01:17 12:09:18+03:00",
+          "FileAccessDate": "2026:01:17 12:09:17+03:00",
+          "FileInodeChangeDate": "2026:01:20 12:17:39+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ImageWidth": 1024,
+          "ImageHeight": 682,
+          "EncodingProcess": "Progressive DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:4:4 (1 1)"
+        },
+        "Adobe": {
+          "DCTEncodeVersion": 100,
+          "APP14Flags0": "[14]",
+          "APP14Flags1": "(none)",
+          "ColorTransform": "YCbCr"
+        },
+        "Composite": {
+          "ImageSize": "1024x682",
+          "Megapixels": 0.698
+        }
+      },
+      "findings": []
+    },
+    {
+      "file": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/bWF4",
+      "hash": "96cf36068bd0f4cd8bf75ba457ae3a2e59dd5ade9c109941fde070b7d60c3744",
+      "type": "image/jpeg",
+      "metadata": {
+        "SourceFile": "/home/havoc/Downloads/ctf/swimmerctf/ai-images/bWF4",
+        "ExifTool": {
+          "ExifToolVersion": 13.25
+        },
+        "System": {
+          "FileName": "bWF4",
+          "Directory": "/home/havoc/Downloads/ctf/swimmerctf/ai-images",
+          "FileSize": "36 kB",
+          "FileModifyDate": "2026:01:20 12:18:46+03:00",
+          "FileAccessDate": "2026:01:20 12:18:45+03:00",
+          "FileInodeChangeDate": "2026:01:20 12:19:15+03:00",
+          "FilePermissions": "-rw-rw-r--"
+        },
+        "File": {
+          "FileType": "JPEG",
+          "FileTypeExtension": "jpg",
+          "MIMEType": "image/jpeg",
+          "ExifByteOrder": "Little-endian (Intel, II)",
+          "ImageWidth": 500,
+          "ImageHeight": 452,
+          "EncodingProcess": "Baseline DCT, Huffman coding",
+          "BitsPerSample": 8,
+          "ColorComponents": 3,
+          "YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+        },
+        "IFD0": {
+          "Orientation": "Horizontal (normal)",
+          "XResolution": 72,
+          "YResolution": 72,
+          "ResolutionUnit": "inches",
+          "YCbCrPositioning": "Centered"
+        },
+        "ExifIFD": {
+          "ExifVersion": "0210",
+          "ComponentsConfiguration": "Y, Cb, Cr, -",
+          "FlashpixVersion": "0100",
+          "ColorSpace": "Uncalibrated",
+          "ExifImageWidth": 500,
+          "ExifImageHeight": 452
+        },
+        "Composite": {
+          "ImageSize": "500x452",
+          "Megapixels": 0.226
+        }
+      },
+      "findings": []
+    }
+  ]
+}

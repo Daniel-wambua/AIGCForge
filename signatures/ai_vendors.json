@@ -1,0 +1,27 @@
+{
+  "dreamina": {
+    "tags": {
+      "SourceInfo": "dreamina",
+      "AIGCInfo": "present"
+    },
+    "blocks": ["aigc_info"]
+  },
+  "bytedance": {
+    "tags": {
+      "SourceInfo": ["bytedance", "tiktok_aigc"]
+    },
+    "blocks": ["aigc_info"]
+  },
+  "stable_diffusion": {
+    "tags": {
+      "Software": "Stable Diffusion"
+    },
+    "blocks": []
+  },
+  "midjourney": {
+    "tags": {
+      "Software": "Midjourney"
+    },
+    "blocks": []
+  }
+}
