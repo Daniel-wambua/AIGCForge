@@ -1,7 +1,8 @@
-<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
   <rect width="256" height="256" rx="48" fill="#1a2233"/>
-  <text x="128" y="110" text-anchor="middle" fill="#4e8cff" font-size="56" font-family="Arial, Helvetica, sans-serif" font-weight="bold">AIGC</text>
-  <text x="128" y="170" text-anchor="middle" fill="#b0c4de" font-size="32" font-family="Arial, Helvetica, sans-serif">Forge</text>
-  <rect x="40" y="200" width="176" height="18" rx="9" fill="#4e8cff" opacity="0.15"/>
-  <text x="128" y="225" text-anchor="middle" fill="#888" font-size="16" font-family="Arial, Helvetica, sans-serif">OSINT Metadata & AI</text>
+  <text x="128" y="100" text-anchor="middle" fill="#4e8cff" font-size="56" font-family="Arial, Helvetica, sans-serif" font-weight="bold">AIGC</text>
+  <text x="128" y="160" text-anchor="middle" fill="#b0c4de" font-size="32" font-family="Arial, Helvetica, sans-serif">Forge</text>
+  <rect x="40" y="190" width="176" height="18" rx="9" fill="#4e8cff" opacity="0.15"/>
+  <text x="128" y="220" text-anchor="middle" fill="#888" font-size="16" font-family="Arial, Helvetica, sans-serif">OSINT Metadata &amp; AI</text>
 </svg>

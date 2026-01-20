@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./media/aigcforge_logo.svg" alt="AIGCForge Logo" width="180"/>
+  <img src="media/aigcforge_logo.svg" alt="AIGCForge Logo" width="180"/>
 </p>
 
 # AIGCForge
@@ -61,8 +61,8 @@ AIGCForge is an open-source OSINT metadata analysis tool for digital forensics.
 
 1. **Clone the repository:**
   ```sh
-  git clone https://github.com/yourusername/aigcforge.git
-  cd aigcforge
+  git clone https://github.com/Daniel-wambua/AIGCForge.git
+  cd AIGCForge
   ```
 
 2. **Install Python dependencies:**
@@ -77,44 +77,10 @@ AIGCForge is an open-source OSINT metadata analysis tool for digital forensics.
     ```
   - Or download from [ExifTool website](https://exiftool.org/)
 
-## Repository Structure
-
-```
-aigcforge/
-├── aigcforge.py              # main CLI entry point
-├── requirements.txt
-├── README.md
-├── LICENSE
-│
-├── core/
-│   ├── extractor.py          # exiftool invocation + raw byte extraction
-│   ├── normalizer.py         # normalize metadata into schema
-│   ├── filehandler.py        # hashing, mime detection, file loading
-│
-├── analyzers/
-│   ├── base.py               # Analyzer interface
-│   ├── classic_metadata.py   # camera, timestamps, software
-│   ├── ai_metadata.py        # AI provenance via metadata only
-│   ├── raw_container.py      # raw byte scanning for AIGC JSON
-│
-├── signatures/
-│   └── ai_vendors.json       # known AIGC vendor fingerprints
-│
-├── reports/
-│   ├── html.py               # HTML report generator
-│   └── json.py               # JSON report generator
-│
-├── templates/
-│   └── report.html
-│
-└── media/
-   ├── samples/
-   └── aigcforge_logo.svg
-```
 
 ## Contributing
 
-Pull requests and issues are welcome! Please ensure all features are technically defensible and documented. No hallucinated features or unverifiable claims.
+Pull requests and issues are welcome!
 
 ---
 
